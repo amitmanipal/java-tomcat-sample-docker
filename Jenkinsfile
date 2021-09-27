@@ -17,7 +17,7 @@ pipeline {
             }
         }
 
-        stage('Build_Tomcat_Docker_Image'){
+        stage('Create Tomcat Docker Image'){
             steps {
                 sh "pwd"
                 sh "ls -a"
